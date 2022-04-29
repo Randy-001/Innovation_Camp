@@ -1,0 +1,26 @@
+.button {
+    background-color: #f4511e;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button:hover {opacity: 1}
+.font{
+    font-family: "Times New Roman", Times, serif;
+    font-variant: small-caps;
+    font-size: 14px;
+}
+.background{
+    
+}
+
+  
+  
