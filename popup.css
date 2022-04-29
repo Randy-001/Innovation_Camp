@@ -16,11 +16,23 @@
 .font{
     font-family: "Times New Roman", Times, serif;
     font-variant: small-caps;
-    font-size: 14px;
+    font-size: 40px;
+    color: orangered;
 }
-.background{
-    
-}
-
-  
-  
+input {
+    width: 70%;
+  }
+  .font {
+    display: inline-block;
+    white-space: nowrap;
+    animation: floatText 15s infinite linear;
+    padding-left: 100%; /*Initial offset*/
+  }
+  .font:hover {
+    animation-play-state: paused;
+  }
+  @keyframes floatText {
+    to {
+      transform: translateX(-100%);
+    }
+  }
